@@ -1,0 +1,71 @@
+.loginnav {
+  padding: 0;
+  margin: 0;
+  max-width: 183px;
+  width: 100%;
+}
+
+.loginnav__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  text-align: right;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.loginnav__signup {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  margin: 0 30px 0 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 1.1;
+  transition: opacity 0.3s;
+}
+
+.loginnav__signup:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.loginnav__signin {
+  display: flex;
+  width: 76px;
+  height: 32px;
+  background-color: #3DDC84;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 1.1;
+  border-radius: 3px;
+  transition: opacity 0.3s;
+}
+
+.loginnav__signin:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .loginnav {
+    max-width: 159px;
+  }
+
+  .loginnav__button {
+    padding: 6px 12px;
+    width: 54px;
+    border-radius: 3px;
+  }
+
+  .loginnav__link {
+    margin-right: 14px;
+  }
+}

@@ -1,0 +1,12 @@
+@import url('./vendor/normalize.css');
+@import url('./vendor/fonts.css');
+
+body {
+  font-family: 'Inter', 'Arial', sans-serif;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background-color: #202020;
+  flex-direction: column;
+}
