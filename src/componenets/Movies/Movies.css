@@ -1,0 +1,43 @@
+.movies {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.movies__still {
+  margin: 77px 0 96px 0;
+  padding: 0;
+  width: 320px;
+  height: 36px;
+  border-radius: 6px;
+  border: 1px solid #424242;
+  background: transparent;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  align-self: center;
+  cursor: pointer;
+}
+
+.movies__still:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .movies__still {
+    margin-top: 80px;
+    margin-bottom: 130px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .movies__still {
+    max-width: 240px;
+  }
+}
