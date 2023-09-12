@@ -3,7 +3,7 @@ import './SearchForm.css'
 
 function SearchForm() {
   return (
-    <section className='searchform searchform__movies'>
+    <section className='searchform'>
       <form className='searchform__input-container'>
         <input
           className='searchform__input'
