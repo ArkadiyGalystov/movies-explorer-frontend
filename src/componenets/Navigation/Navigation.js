@@ -16,7 +16,12 @@ function Navigation() {
           <div className='navigation__content'>
             <button className='navigation__close' type='button' onClick={handleOpen}></button>
 
-            <nav className='navigation__items'>              
+            <nav className='navigation__items'>
+
+            <div className='navigation__links navigation__links_main-block'>
+                <NavLink to='/' className={({ isActive }) => `navigation__link ${ isActive ? 'navigation__link_active' : '' }`}>Главная</NavLink>
+              </div>
+
               <div className='navigation__links'>
                 <NavLink to='/movies' className={({ isActive }) => `navigation__link ${ isActive ? 'navigation__link_active' : '' }`}>Фильмы</NavLink>
               </div>

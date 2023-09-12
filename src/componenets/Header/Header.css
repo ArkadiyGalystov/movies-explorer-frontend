@@ -12,6 +12,12 @@
 .header__logo {
   max-width: 38px;
   max-height: 38px;
+  transition: opacity 0.3s;
+}
+
+.header__logo:hover{
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 .header__link {
@@ -40,14 +46,11 @@
 }
 
 @media screen and (max-width: 600px) {
+  .header {
+    padding: 11px 0px 27px 0px;
+  }
+
   .header__logo {
     margin-left: 14px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .header {
-    max-width: 320px;
-    padding: 11px 0px 27px 0px;
   }
 }

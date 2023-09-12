@@ -29,17 +29,25 @@
 }
 
 @media screen and (max-width: 768px) {
+  .moviescardlist__movies {
+    padding-top: 28px;
+  }
+  
+  .moviescardlist__saved-movies {
+    padding-top: 40px;
+  }
+
   .moviescardlist__cards {
     max-width: 708px;
-    row-gap: 90px
-    ;
+    row-gap: 90px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
   .moviescardlist__cards {
     margin-top: 18px;
     max-width: 320px;
     row-gap: 50px;
+    justify-content: space-around;
   }
 }

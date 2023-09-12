@@ -82,7 +82,7 @@
   border-radius: 10px;
   border: none;
   background-image: url('../../../images/save_button_move.svg');
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-color: transparent;
   cursor: pointer;
@@ -132,7 +132,7 @@
   }
 
   .moviescardlist__info {
-    margin: 7px 0 20px 0;
+    margin: 16px 0 20px 0;
   }
 }
 

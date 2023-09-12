@@ -55,7 +55,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
   .loginnav__signup {
     margin: 4px 15px 0 12px;
     font-size: 10px;
