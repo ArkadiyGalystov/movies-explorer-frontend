@@ -105,9 +105,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .searchform__movies {
+  .searchform {
     max-width: 708px;
-    margin: 60px auto 15px auto;
+    margin: 60px auto 3px auto;
   }
 
   .searchform__input-container {
