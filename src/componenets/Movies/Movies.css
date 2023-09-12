@@ -31,8 +31,8 @@
 
 @media screen and (max-width: 768px) {
   .movies__still {
-    margin-top: 80px;
-    margin-bottom: 130px;
+    margin-top: 86px;
+    margin-bottom: -129px;
   }
 }
 
