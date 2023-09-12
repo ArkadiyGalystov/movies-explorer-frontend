@@ -1,6 +1,6 @@
 .footer {
   max-width: 1136px;
-  padding: 0;
+  padding: 0 0 20px 0;
   margin: 32px auto 0px auto;
   display: flex;
   flex-direction: column;
@@ -66,12 +66,8 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .footer__saved-movies {
-    margin-top: 265px;
-  }
-
-  .footer__movies {
-    margin-top: 282px;
+  .footer {
+    margin: 0;
   }
   
   .footer__content {
@@ -80,6 +76,7 @@
 
   .footer__text {
     max-width: 708px;
+    margin-top: 272px;
   }
 }
 
