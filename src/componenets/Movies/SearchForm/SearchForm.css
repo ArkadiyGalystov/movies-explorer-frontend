@@ -72,6 +72,7 @@
   align-items: center;
   user-select: none;
   text-align: center;
+  cursor: pointer;
 }
 
 .searchform__checkbox + .searchform__label::before {
