@@ -21,6 +21,7 @@ function Main() {
         <AboutMe />
         <Portfolio />
       </main>
+    <Footer />
     </>
   )
 }
