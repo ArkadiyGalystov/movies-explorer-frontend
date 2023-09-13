@@ -6,6 +6,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .navigation__open {
@@ -20,6 +21,7 @@
   background-position: center;
   background-repeat: no-repeat;
   transition: opacity 0.2s linear;
+  cursor: pointer;  
 }
 
 .navigation__open:hover {
