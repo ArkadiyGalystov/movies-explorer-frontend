@@ -19,7 +19,7 @@ function Navigation() {
             <nav className='navigation__items'>
 
             <div className='navigation__links navigation__links_main-block'>
-                <NavLink to='/' className={({ isActive }) => `navigation__link ${ isActive ? 'navigation__link_active' : '' }`}>Главная</NavLink>
+                <NavLink to='/' className={({ isActive }) => `navigation__link ${ isActive ? '' : 'navigation__link_active' }`}>Главная</NavLink>
               </div>
 
               <div className='navigation__links'>
