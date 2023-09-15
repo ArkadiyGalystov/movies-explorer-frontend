@@ -7,39 +7,40 @@ import { useState } from 'react';
 const Profile = () => {
   const [isLoggedIn] = useState(true);
   return (
-    
+
     <main className='profile'>
-      <Header loggedIn={isLoggedIn}/>
+      <Header loggedIn={isLoggedIn} />
       <section className='profile__container'>
         <form className='profile__form'>
           <h3 className='profile__title'>Привет, Аркадий!</h3>
           <div className='profile__fields'>
             <label className='profile__name'>Имя</label>
-              <input
-                className='input'
-                defaultValue='Аркадий'
-                placeholder='Имя'
-                minLength={2}
-                maxLength={12}
-                required
-              />
+            <input
+              className='input'
+              defaultValue='Аркадий'
+              placeholder='Имя'
+              minLength={2}
+              maxLength={12}
+              required
+            />
           </div>
 
-          <div className='profile__line'></div>  
+          <div className='profile__line'></div>
 
           <div className='profile__fields'>
             <label className='profile__name'>E-mail</label>
-              <input
-                className='input'
-                defaultValue='pochta@yandex.ru'
-                placeholder='email@email.ru'
-                required
-              />
+            <input
+              className='input'
+              defaultValue='pochta@yandex.ru'
+              placeholder='email@email.ru'
+              required
+            />
           </div>
-           
+
         </form>
         <form className='profile__form' action='/profile'>
-          <input type='submit' className='profile__button' value='Редактировать'/>
+          <p className='profile__error'>При обновлении профиля произошла ошибка.</p>
+          <input type='button' className='profile__button' value='Редактировать' />
         </form>
         <Link to='/' className='profile__link'>Выйти из аккаунта</Link>
       </section>

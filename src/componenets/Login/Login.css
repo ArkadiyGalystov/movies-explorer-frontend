@@ -70,6 +70,7 @@
 
 .login__input:focus {
   outline: 0;
+  border-bottom: #3456F3 1px solid;
 }
 
 .login__input:nth-child(2) {

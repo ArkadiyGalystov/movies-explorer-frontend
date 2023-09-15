@@ -2,7 +2,6 @@ import React from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
 import './MoviesCard.css'
 import MoviePoster from '../../../images/baskia.png'
-//import { moviesData } from "../../../utils/MoviesArray";
 
 function MoviesCard() {
   const location = useLocation()
@@ -22,22 +21,5 @@ function MoviesCard() {
     </div>
   )
 }
-
-  /* return (
-    <>
-      {moviesData.map((movie, index) => (
-        <div className='card' key={index}>
-          <img src={movie.image} alt={movie.title} className='card__pic' />
-          <button className={`card__button_save ${movie.isSaved ? 'card__button_remove' : ''}`}>
-          </button>
-          <div className='card__info'>
-            <h2 className='card__name'>{movie.title}</h2>
-            <p className='card__duration'>{movie.duration}</p>
-          </div>
-        </div>
-      ))}
-    </>
-  );
-} */
 
 export default MoviesCard

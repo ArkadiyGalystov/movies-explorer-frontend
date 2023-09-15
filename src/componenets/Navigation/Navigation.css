@@ -21,7 +21,7 @@
   background-position: center;
   background-repeat: no-repeat;
   transition: opacity 0.2s linear;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .navigation__open:hover {
@@ -66,11 +66,13 @@
   background-size: 32px;
   transition: opacity 0.2s linear;
   border: none;
+  cursor: pointer;
 }
 
 .navigation__close:hover {
   opacity: 0.6;
   transition: opacity 0.3s;
+  cursor: pointer;
 }
 
 .navigation__items {
@@ -140,6 +142,7 @@
   margin: 0;
   font-size: 14px;
   color: #fff;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 880px) {
@@ -215,7 +218,7 @@
   }
 
   .navigation__items {
-    margin: 115px 90px 0 100px;
+    margin: 100px 30px 0 30px;
   }
 }
 

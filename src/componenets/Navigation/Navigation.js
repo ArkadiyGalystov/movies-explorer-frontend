@@ -10,7 +10,7 @@ function Navigation() {
     <div className='navigation'>
       <button className='navigation__open' type='button' onClick={handleOpen}></button>
 
-      <div className={`navigation__container ${ isOpen ? 'navigation__container_active' : '' }`}>
+      <div className={`navigation__container ${ isOpen ? '' : 'navigation__container_active' }`}>
         <div className='navigation__sidebar'>
           
           <div className='navigation__content'>
@@ -19,7 +19,7 @@ function Navigation() {
             <nav className='navigation__items'>
 
             <div className='navigation__links navigation__links_main-block'>
-                <NavLink to='/' className={({ isActive }) => `navigation__link ${ isActive ? '' : 'navigation__link_active' }`}>Главная</NavLink>
+                <NavLink to='/' className={({ isActive }) => `navigation__link ${ isActive ? 'navigation__link_active' : '' }`}>Главная</NavLink>
               </div>
 
               <div className='navigation__links'>
