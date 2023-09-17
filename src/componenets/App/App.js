@@ -14,7 +14,7 @@ import { useState } from 'react';
 
 function App() {
   const [isLoggedIn] = useState(true);
-  const cards = 8;
+  const cards = 5;
   const savedCards = 3;
   const cardsList = Array(cards).fill(null);
   const saveCards = Array(savedCards).fill(null);

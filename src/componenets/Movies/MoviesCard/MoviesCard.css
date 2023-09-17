@@ -142,6 +142,7 @@
 
   .moviescardlist__name {
     margin-left: 0;
+    font-size: 12px;
   }
 
   .moviescardlist__duration {
@@ -149,6 +150,6 @@
   }
 
   .moviescardlist__info {
-    margin: 8px 0 20px 0;
+    padding: 17px 0 0 0;
   }
 }
